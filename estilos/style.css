@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+}
+header .nav{
+    background-color: rgba(218, 127, 196, 0.405);
+}
+
+.logo-container .logo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 30px;
+    color: #fff;
+}
+
+.logo-container .logo-2{
+    color: #fff;
+    padding: 20px;
+    padding-top:-80px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.numero{
+    display: flex;
+    justify-content: first baseline;
+}
