@@ -2,27 +2,93 @@
 *{
     margin: 0;
 }
+
+body{
+    background-color: var(--cor-de-fundo);
+}
 header .nav{
-    background-color: rgba(218, 127, 196, 0.405);
+background-color:var(--cor01);
+
 }
 
 .logo-container .logo{
-    font-family: sans-serif;
+    font-family: var(--font01);
     font-weight: 600;
     font-size: 25px;
     padding: 30px;
-    color: #fff;
+    color: var(--cor00);
 }
 
-.logo-container .logo-2{
-    color: #fff;
-    padding: 20px;
-    padding-top:-80px;
-    font-weight: 600;
-    font-family: monospace;
-}
-
-.numero{
+.nav{
     display: flex;
-    justify-content: first baseline;
+    justify-content: space-between;
 }
+
+.nav .numero{
+    padding: 15px;
+}
+
+.numero .icone{
+    padding-right: 5px;
+    padding-top: 5px;
+
+}
+
+.numero a {
+    text-decoration: none;
+    color: var(--cor02) ;
+}
+
+.catalogo .menu{    
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+    flex-direction: column;
+    color: var(--cor02); 
+    width: 100vw;
+    height: 400px;
+    
+}
+
+.menu h1{
+    padding: 10px;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+.menu p{
+    font-weight: 300;
+}
+
+.produtos-container{
+    width: 100vw;
+    height: 600px;
+    background-color:var(--cor00);
+    
+}
+.produtos{
+    display: flex;
+    width: 800px;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    margin: auto;
+   
+
+}
+.produtos .box{
+    width: 230px;
+    height: 230px;
+    background-color: var(--cor03);
+    margin: 20px;
+    margin-top: 120px; 
+
+}
+
+#img1{
+    background: url(../imagens/IMG_6087-removebg-preview.png) no-repeat center center/cover;
+    background-color: var(--cor03);
+    border-radius: 10px;
+}
+
+
+   
