@@ -1,0 +1,13 @@
+:root{
+    --cor-de-fundo: rgb(237, 231, 237);
+    --cor00:#fff;
+    --cor01: #e7c6df; /*Cor fundo nav*/
+    --cor02:rgb(170, 108, 108) ; /*Segunda cor para letra*/
+    --cor03: rgba(219, 214, 214, 0.552);
+
+}
+
+:root{
+
+    --font01: sans-serif;
+}
